@@ -16,6 +16,4 @@ class ContactBookCubit extends Cubit<ContactBookState> {
     contacts.remove(contact);
     emit(ContactBookState(contacts: contacts));
   }
-
-
 }
